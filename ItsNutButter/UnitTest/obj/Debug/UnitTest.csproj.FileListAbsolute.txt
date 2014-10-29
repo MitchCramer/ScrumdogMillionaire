@@ -1,0 +1,5 @@
+C:\Users\Brandon\Documents\Visual Studio 2013\Projects\ScrumdogMillionaire\ItsNutButter\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\Brandon\Documents\Visual Studio 2013\Projects\ScrumdogMillionaire\ItsNutButter\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\Brandon\Documents\Visual Studio 2013\Projects\ScrumdogMillionaire\ItsNutButter\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Brandon\Documents\Visual Studio 2013\Projects\ScrumdogMillionaire\ItsNutButter\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\Brandon\Documents\Visual Studio 2013\Projects\ScrumdogMillionaire\ItsNutButter\UnitTest\obj\Debug\UnitTest.pdb

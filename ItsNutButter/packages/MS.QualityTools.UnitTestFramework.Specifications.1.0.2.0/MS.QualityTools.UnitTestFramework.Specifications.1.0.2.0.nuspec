@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MS.QualityTools.UnitTestFramework.Specifications</id>
+    <version>1.0.2.0</version>
+    <title>MS.QualityTools.UnitTestFramework.Specifications</title>
+    <authors>Marco Stolze (mcpride)</authors>
+    <owners>Marco Stolze (mcpride)</owners>
+    <licenseUrl>https://github.com/mcpride/MS.TestPlatform</licenseUrl>
+    <projectUrl>https://github.com/mcpride/MS.TestPlatform</projectUrl>
+    <iconUrl>https://github.com/mcpride/MS.TestPlatform/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>BDD test specifications for MSTest similar to MSTestContrib.</description>
+    <releaseNotes />
+    <copyright>Copyright © Marco Stolze 2014</copyright>
+    <language>en-US</language>
+    <tags>test unittest bdd specifications specs mstest</tags>
+  </metadata>
+</package>

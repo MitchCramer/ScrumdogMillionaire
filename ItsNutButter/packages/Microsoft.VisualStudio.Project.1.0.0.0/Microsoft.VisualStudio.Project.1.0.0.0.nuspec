@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.VisualStudio.Project</id>
+    <version>1.0.0.0</version>
+    <title>Microsoft.VisualStudio.Project</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MPF Implementation of VS Projects</description>
+    <releaseNotes />
+    <copyright>Copyright 2009</copyright>
+    <tags>microsoft visualstudio project extension package</tags>
+  </metadata>
+</package>
