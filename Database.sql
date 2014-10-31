@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS soups;
+use soups;
+
 CREATE TABLE `soups` (
   `recipe_id` bigint(20) NOT NULL AUTO_INCREMENT,
   `recipe` varchar(200) DEFAULT NULL,
