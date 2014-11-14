@@ -18,14 +18,18 @@ CREATE TABLE `users`.`profile` (
   UNIQUE INDEX `loginId_UNIQUE` (`loginId` ASC));
 
 CREATE TABLE `users`.`favoriterecipes` (
+  `user` VARCHAR(20) NOT NULL,
   `recipeID` INT NOT NULL,
   `recipeType` SET('soup','salad','dessert','entree','bread','vegetarian','appetizer','breakfast','lunch','slowcooker') NULL,
-  PRIMARY KEY (`recipeID`));
+  PRIMARY KEY (`user`));
 
 CREATE TABLE `users`.`userrecipes` (
+  `user` VARCHAR(20) NOT NULL,
   `recipeID` INT NOT NULL,
   `recipeType` SET('soup','salad','dessert','entree','bread','vegetarian','appetizer','breakfast','lunch','slowcooker') NULL,
-  PRIMARY KEY (`recipeID`));
+  PRIMARY KEY (`user`));
 
 CREATE TABLE `users`.`favoriteusers` (
-  `loginID` VARCHAR(20) NOT NULL);
+  `user` VARCHAR(20) NOT NULL,
+  `favUser` VARCHAR(20) NOT NULL,
+  PRIMARY KEY (`user`));
