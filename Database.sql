@@ -163,6 +163,24 @@ CREATE TABLE `breadingd` (
   `unit` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+CREATE TABLE `vegetarian` (
+  `recipe_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `recipe` varchar(200) DEFAULT NULL,
+  `cookTime` int(11) DEFAULT NULL,
+  `allergens` set('peanut','nut','vegetarian','gluten','egg','fish','milk','halal','kosher','soya','wheat','shellfish'),
+  `instructions` varchar(4500) DEFAULT NULL,
+  `recpPic` longblob,
+  `creator` VARCHAR(20) NOT NULL,
+  PRIMARY KEY (`recipe_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `vegetarianingd` (
+  `recipe_id` bigint(20) DEFAULT NULL,
+  `ingredient` varchar(200) DEFAULT NULL,
+  `amnt` int(11) DEFAULT NULL,
+  `unit` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 CREATE TABLE `ingredients` (
   `ingn_id` int(11) NOT NULL AUTO_INCREMENT,
   `ingredient` varchar(50) NOT NULL,
