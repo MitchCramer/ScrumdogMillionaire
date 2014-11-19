@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1(1)", "http://localhost:49784", "{AB874A6D-131A-4D13-AE01-DB02B65ED579}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -9,20 +9,20 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1(1)", "http://local
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
 		ProjectReferences = "{1e9d4309-4d4b-4069-9142-2c8bf138b630}|UnitTest.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_49784"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\WebSites\WebSite1\"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Documents\Visual Studio 2013\WebSites\WebSite1\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49784\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_49784"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\WebSites\WebSite1\"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Documents\Visual Studio 2013\WebSites\WebSite1\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49784\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\..\..\WebSites\WebSite1\"
+		SlnRelativePath = "..\..\..\..\Documents\Visual Studio 2013\WebSites\WebSite1\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
