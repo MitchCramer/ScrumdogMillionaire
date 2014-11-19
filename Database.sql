@@ -15,8 +15,10 @@ CREATE TABLE `soups` (
 CREATE TABLE `soupingd` (
   `recipe_id` bigint(20) DEFAULT NULL,
   `ingredient` varchar(200) DEFAULT NULL,
-  `amnt` int(11) DEFAULT NULL,
-  `unit` varchar(50) DEFAULT NULL
+  `amnt` float(11) DEFAULT NULL,
+  `unit` varchar(50) DEFAULT NULL,
+  `randomNum` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`randomNum`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `entrees` (
@@ -33,8 +35,10 @@ CREATE TABLE `entrees` (
 CREATE TABLE `entreeingd` (
   `recipe_id` bigint(20) DEFAULT NULL,
   `ingredient` varchar(200) DEFAULT NULL,
-  `amnt` int(11) DEFAULT NULL,
-  `unit` varchar(50) DEFAULT NULL
+  `amnt` float(11) DEFAULT NULL,
+  `unit` varchar(50) DEFAULT NULL,
+  `randomNum` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`randomNum`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `desserts` (
@@ -51,8 +55,10 @@ CREATE TABLE `desserts` (
 CREATE TABLE `dessertingd` (
   `recipe_id` bigint(20) DEFAULT NULL,
   `ingredient` varchar(200) DEFAULT NULL,
-  `amnt` int(11) DEFAULT NULL,
-  `unit` varchar(50) DEFAULT NULL
+  `amnt` float(11) DEFAULT NULL,
+  `unit` varchar(50) DEFAULT NULL,
+  `randomNum` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`randomNum`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `salads` (
@@ -69,8 +75,10 @@ CREATE TABLE `salads` (
 CREATE TABLE `saladingd` (
   `recipe_id` bigint(20) DEFAULT NULL,
   `ingredient` varchar(200) DEFAULT NULL,
-  `amnt` int(11) DEFAULT NULL,
-  `unit` varchar(50) DEFAULT NULL
+  `amnt` float(11) DEFAULT NULL,
+  `unit` varchar(50) DEFAULT NULL,
+  `randomNum` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`randomNum`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `breakfast` (
@@ -87,8 +95,10 @@ CREATE TABLE `breakfast` (
 CREATE TABLE `breakfastingd` (
   `recipe_id` bigint(20) DEFAULT NULL,
   `ingredient` varchar(200) DEFAULT NULL,
-  `amnt` int(11) DEFAULT NULL,
-  `unit` varchar(50) DEFAULT NULL
+  `amnt` float(11) DEFAULT NULL,
+  `unit` varchar(50) DEFAULT NULL,
+  `randomNum` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`randomNum`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `lunch` (
@@ -105,8 +115,10 @@ CREATE TABLE `lunch` (
 CREATE TABLE `lunchingd` (
   `recipe_id` bigint(20) DEFAULT NULL,
   `ingredient` varchar(200) DEFAULT NULL,
-  `amnt` int(11) DEFAULT NULL,
-  `unit` varchar(50) DEFAULT NULL
+  `amnt` float(11) DEFAULT NULL,
+  `unit` varchar(50) DEFAULT NULL,
+  `randomNum` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`randomNum`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `appetizers` (
@@ -123,8 +135,10 @@ CREATE TABLE `appetizers` (
 CREATE TABLE `appetizeringd` (
   `recipe_id` bigint(20) DEFAULT NULL,
   `ingredient` varchar(200) DEFAULT NULL,
-  `amnt` int(11) DEFAULT NULL,
-  `unit` varchar(50) DEFAULT NULL
+  `amnt` float(11) DEFAULT NULL,
+  `unit` varchar(50) DEFAULT NULL,
+  `randomNum` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`randomNum`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `slowcooker` (
@@ -141,8 +155,10 @@ CREATE TABLE `slowcooker` (
 CREATE TABLE `slowcookeringd` (
   `recipe_id` bigint(20) DEFAULT NULL,
   `ingredient` varchar(200) DEFAULT NULL,
-  `amnt` int(11) DEFAULT NULL,
-  `unit` varchar(50) DEFAULT NULL
+  `amnt` float(11) DEFAULT NULL,
+  `unit` varchar(50) DEFAULT NULL,
+  `randomNum` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`randomNum`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `breads` (
@@ -159,8 +175,10 @@ CREATE TABLE `breads` (
 CREATE TABLE `breadingd` (
   `recipe_id` bigint(20) DEFAULT NULL,
   `ingredient` varchar(200) DEFAULT NULL,
-  `amnt` int(11) DEFAULT NULL,
-  `unit` varchar(50) DEFAULT NULL
+  `amnt` float(11) DEFAULT NULL,
+  `unit` varchar(50) DEFAULT NULL,
+  `randomNum` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`randomNum`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `vegetarian` (
@@ -177,8 +195,10 @@ CREATE TABLE `vegetarian` (
 CREATE TABLE `vegetarianingd` (
   `recipe_id` bigint(20) DEFAULT NULL,
   `ingredient` varchar(200) DEFAULT NULL,
-  `amnt` int(11) DEFAULT NULL,
-  `unit` varchar(50) DEFAULT NULL
+  `amnt` float(11) DEFAULT NULL,
+  `unit` varchar(50) DEFAULT NULL,
+  `randomNum` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`randomNum`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `ingredients` (
